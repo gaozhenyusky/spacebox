@@ -26,6 +26,7 @@
     tcpClient = [[GCDAsyncSocket alloc]initWithDelegate:self delegateQueue:dispatch_get_main_queue()];
     //git23
     //  ii
+    //3434
     [tcpClient connectToHost:@"i2.mhimg.com" onPort:80 error:nil];
     [ssddddddddddd]
     [ASSDASD];

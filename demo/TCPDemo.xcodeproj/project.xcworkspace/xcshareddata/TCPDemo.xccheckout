@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EECC76F6-CA63-43FE-9651-0A959DBEE64F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TCPDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BC6B9C3C2F4435E201C03E418FB27DF71BD6FE73</key>
+		<string>https://github.com/gaozhenyusky/spaceBox.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>demo/TCPDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BC6B9C3C2F4435E201C03E418FB27DF71BD6FE73</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gaozhenyusky/spaceBox.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BC6B9C3C2F4435E201C03E418FB27DF71BD6FE73</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BC6B9C3C2F4435E201C03E418FB27DF71BD6FE73</string>
+			<key>IDESourceControlWCCName</key>
+			<string>spaceBox</string>
+		</dict>
+	</array>
+</dict>
+</plist>

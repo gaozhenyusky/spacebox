@@ -27,7 +27,7 @@
     //git23
     //  iiaaa
     //aaa
-    [tcpClient connectToHost:@"i2.mhimg.com" onPort:80 error:nil];
+    [tcpClient connectToHost:@"i2.mhimg.com" onPort:80 error:nil];//gao
     [ssddddddddddd]
     [ASSDASD];
     []aaa;

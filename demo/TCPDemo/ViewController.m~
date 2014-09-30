@@ -25,12 +25,15 @@
     
     tcpClient = [[GCDAsyncSocket alloc]initWithDelegate:self delegateQueue:dispatch_get_main_queue()];
     //git23
-    //  iiaaa
-    //aaa
+<<<<<<< HEAD
+    //  ii
+    //3434
+=======
+  
+>>>>>>> 9cd036da82336a54b5adef5baa5314c55856ed92
     [tcpClient connectToHost:@"i2.mhimg.com" onPort:80 error:nil];
     [ssddddddddddd]
     [ASSDASD];
-    []aaa;
     // Do any additional setup after loading the view, typically from a nib.
 }
 

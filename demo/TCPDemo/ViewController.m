@@ -29,6 +29,7 @@
     //aaa
     [tcpClient connectToHost:@"i2.mhimg.com" onPort:80 error:nil];
     [ssddddddddddd]
+    [ASSDASD];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

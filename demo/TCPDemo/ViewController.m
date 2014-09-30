@@ -28,7 +28,9 @@
     //  iiaaa
     //aaa
 
-    [tcpClient connectToHost:@"i2.mhimg.com" onPort:80 error:nil];//gao8989898
+
+    [tcpClient connectToHost:@"i2.mhimg.com" onPort:80 error:nil];//gao8989898uuiuiiuiui
+
     [ssddddddddddd]
     [ASSDASD];
     []aaa;

@@ -10,14 +10,14 @@
 	<string>TCPDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>BC6B9C3C2F4435E201C03E418FB27DF71BD6FE73</key>
+		<key>01CFD5305DB1B4E15A2F046A200D260ACD7A7CF3</key>
 		<string>https://github.com/gaozhenyusky/spaceBox.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>demo/TCPDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>BC6B9C3C2F4435E201C03E418FB27DF71BD6FE73</key>
+		<key>01CFD5305DB1B4E15A2F046A200D260ACD7A7CF3</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>BC6B9C3C2F4435E201C03E418FB27DF71BD6FE73</string>
+	<string>01CFD5305DB1B4E15A2F046A200D260ACD7A7CF3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>BC6B9C3C2F4435E201C03E418FB27DF71BD6FE73</string>
+			<string>01CFD5305DB1B4E15A2F046A200D260ACD7A7CF3</string>
 			<key>IDESourceControlWCCName</key>
 			<string>spaceBox</string>
 		</dict>

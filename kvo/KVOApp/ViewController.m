@@ -16,6 +16,7 @@
     Student *stu1;
     Student *stu2;
     
+    //git
     Teacher *t;
 }
 

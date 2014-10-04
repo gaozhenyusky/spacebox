@@ -17,7 +17,7 @@
 
 @interface MyTabBar : UIView
 @property (nonatomic,assign) NSInteger selectedIndex;
-@property (nonatomic,strong) NSArray *items;
+@property (nonatomic,copy) NSArray *items;
 @property (nonatomic,strong) UIImage *backgroundImage;
 @property (nonatomic,weak) id<MyTabBarDelegate>delegate;
 @end

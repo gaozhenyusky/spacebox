@@ -8,12 +8,46 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "FirstViewController.h"
+#import "SecondViewController.h"
+#import "ThirdViewController.h"
+#import "MyTabBarItem.h"
+#import "MyTabBar.h"
 
-@interface AppDelegate ()
-
+@interface AppDelegate () <MyTabBarDelegate>
+{
+    UITabBarController *tabBarCtrl;
+}
 @end
 
 @implementation AppDelegate
+- (void) myTabBar:(MyTabBar *)myTabBar selectAtIndex:(NSInteger)index
+{
+    tabBarCtrl.selectedIndex = index;
+}
+
+- (void)createTabBar
+{
+    NSArray *images = @[@"TabBarRecommendIcon.png",
+                        @"TabBarHomeLiveIcon.png",
+                        @"TabBarHomeChannelsIcon.png",
+                        @"TabBarHomeSearchIcon.png"];
+    NSMutableArray *itemsArray = [NSMutableArray array];
+    for (int i = 0; i < 4; i++) {
+        UIImage *image = [UIImage imageNamed:images[i]];
+        MyTabBarItem *item = [[MyTabBarItem alloc] initWithImage:image title:nil];
+        item.selectedImage = [UIImage imageNamed:@"TabBarHomeBackgroundSelected.png"];
+        [itemsArray addObject:item];
+    }
+    
+    MyTabBar *tabBar = [[MyTabBar alloc] initWithFrame:tabBarCtrl.tabBar.bounds];
+    
+    tabBar.items = itemsArray;
+    tabBar.backgroundImage = [UIImage imageNamed:@"TabBarBackground.png"];
+    tabBar.delegate = self;
+    tabBar.selectedIndex = 0;
+    [tabBarCtrl.tabBar addSubview:tabBar];
+}
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -21,8 +55,16 @@
     viewCtrl.view.backgroundColor = [UIColor whiteColor];
     UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:viewCtrl];
     [navi.navigationBar setBackgroundImage:[UIImage imageNamed:@"RecommandationViewTitleBackground.png"] forBarMetrics:UIBarMetricsDefault];
-
-    self.window.rootViewController = navi;
+    FirstViewController *firstCtrl = [[FirstViewController alloc] init];
+    firstCtrl.view.backgroundColor = [UIColor redColor];
+    SecondViewController *secCtrl = [[SecondViewController alloc] init];
+    secCtrl.view.backgroundColor = [UIColor blueColor];
+    ThirdViewController *thirdCtrl = [[ThirdViewController alloc] init];
+    thirdCtrl.view.backgroundColor = [UIColor yellowColor];
+    tabBarCtrl = [[UITabBarController alloc] init];
+    tabBarCtrl.viewControllers = @[navi, firstCtrl, secCtrl, thirdCtrl];
+    [self createTabBar];
+    self.window.rootViewController = tabBarCtrl;
     return YES;
 }
 

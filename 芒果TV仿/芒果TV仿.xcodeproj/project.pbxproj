@@ -50,6 +50,10 @@
 		3B4546F219DBA93100603D53 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4546F119DBA93100603D53 /* MyScrollView.m */; };
 		3BB04E0919DD392F00BB98AF /* MyTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB04E0819DD392F00BB98AF /* MyTipsView.m */; };
 		3BB04E0C19DFA8C600BB98AF /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB04E0B19DFA8C600BB98AF /* MyTabBar.m */; };
+		3BB04E0F19DFD8FE00BB98AF /* MyTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB04E0E19DFD8FE00BB98AF /* MyTabBarItem.m */; };
+		3BB04E1219DFE20400BB98AF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB04E1119DFE20400BB98AF /* FirstViewController.m */; };
+		3BB04E1519DFE21000BB98AF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB04E1419DFE21000BB98AF /* SecondViewController.m */; };
+		3BB04E1819DFE22100BB98AF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB04E1719DFE22100BB98AF /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +119,14 @@
 		3BB04E0819DD392F00BB98AF /* MyTipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTipsView.m; sourceTree = "<group>"; };
 		3BB04E0A19DFA8C600BB98AF /* MyTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBar.h; sourceTree = "<group>"; };
 		3BB04E0B19DFA8C600BB98AF /* MyTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBar.m; sourceTree = "<group>"; };
+		3BB04E0D19DFD8FE00BB98AF /* MyTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarItem.h; sourceTree = "<group>"; };
+		3BB04E0E19DFD8FE00BB98AF /* MyTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarItem.m; sourceTree = "<group>"; };
+		3BB04E1019DFE20400BB98AF /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3BB04E1119DFE20400BB98AF /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3BB04E1319DFE21000BB98AF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3BB04E1419DFE21000BB98AF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3BB04E1619DFE22100BB98AF /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		3BB04E1719DFE22100BB98AF /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +174,12 @@
 				3B11DE6819DADB2E00CA335F /* AppDelegate.m */,
 				3B11DE6A19DADB2E00CA335F /* ViewController.h */,
 				3B11DE6B19DADB2E00CA335F /* ViewController.m */,
+				3BB04E1019DFE20400BB98AF /* FirstViewController.h */,
+				3BB04E1119DFE20400BB98AF /* FirstViewController.m */,
+				3BB04E1319DFE21000BB98AF /* SecondViewController.h */,
+				3BB04E1419DFE21000BB98AF /* SecondViewController.m */,
+				3BB04E1619DFE22100BB98AF /* ThirdViewController.h */,
+				3BB04E1719DFE22100BB98AF /* ThirdViewController.m */,
 				3B11DE6D19DADB2E00CA335F /* Main.storyboard */,
 				3B11DE7019DADB2E00CA335F /* Images.xcassets */,
 				3B11DE7219DADB2E00CA335F /* LaunchScreen.xib */,
@@ -246,6 +264,8 @@
 				3BB04E0819DD392F00BB98AF /* MyTipsView.m */,
 				3BB04E0A19DFA8C600BB98AF /* MyTabBar.h */,
 				3BB04E0B19DFA8C600BB98AF /* MyTabBar.m */,
+				3BB04E0D19DFD8FE00BB98AF /* MyTabBarItem.h */,
+				3BB04E0E19DFD8FE00BB98AF /* MyTabBarItem.m */,
 			);
 			name = view;
 			path = "芒果TV仿";
@@ -384,12 +404,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB04E1519DFE21000BB98AF /* SecondViewController.m in Sources */,
+				3BB04E0F19DFD8FE00BB98AF /* MyTabBarItem.m in Sources */,
 				3BB04E0919DD392F00BB98AF /* MyTipsView.m in Sources */,
 				3BB04E0C19DFA8C600BB98AF /* MyTabBar.m in Sources */,
 				3B11DE6C19DADB2E00CA335F /* ViewController.m in Sources */,
 				3B4546F219DBA93100603D53 /* MyScrollView.m in Sources */,
+				3BB04E1819DFE22100BB98AF /* ThirdViewController.m in Sources */,
 				3B11DE6919DADB2E00CA335F /* AppDelegate.m in Sources */,
 				3B11DE6619DADB2E00CA335F /* main.m in Sources */,
+				3BB04E1219DFE20400BB98AF /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B11DE6619DADB2E00CA335F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11DE6519DADB2E00CA335F /* main.m */; };
+		3B11DE6919DADB2E00CA335F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11DE6819DADB2E00CA335F /* AppDelegate.m */; };
+		3B11DE6C19DADB2E00CA335F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11DE6B19DADB2E00CA335F /* ViewController.m */; };
+		3B11DE6F19DADB2E00CA335F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE6D19DADB2E00CA335F /* Main.storyboard */; };
+		3B11DE7119DADB2E00CA335F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE7019DADB2E00CA335F /* Images.xcassets */; };
+		3B11DE7419DADB2E00CA335F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE7219DADB2E00CA335F /* LaunchScreen.xib */; };
+		3B11DE8019DADB2E00CA335F /* __TV_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11DE7F19DADB2E00CA335F /* __TV_Tests.m */; };
+		3B11DEAB19DAE03F00CA335F /* CartoonIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE8A19DAE03F00CA335F /* CartoonIcon@2x.png */; };
+		3B11DEAC19DAE03F00CA335F /* color-wheel-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE8B19DAE03F00CA335F /* color-wheel-icon.jpg */; };
+		3B11DEAD19DAE03F00CA335F /* ColumnDetailIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE8C19DAE03F00CA335F /* ColumnDetailIcon@2x.png */; };
+		3B11DEAE19DAE03F00CA335F /* HomeActivityBarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE8D19DAE03F00CA335F /* HomeActivityBarIcon@2x.png */; };
+		3B11DEAF19DAE03F00CA335F /* HomeMore@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE8E19DAE03F00CA335F /* HomeMore@2x.png */; };
+		3B11DEB019DAE03F00CA335F /* HuaerYuShaonianIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE8F19DAE03F00CA335F /* HuaerYuShaonianIcon.png */; };
+		3B11DEB119DAE03F00CA335F /* ImgoShareIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE9019DAE03F00CA335F /* ImgoShareIcon@2x.png */; };
+		3B11DEB219DAE03F00CA335F /* MoviesIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE9119DAE03F00CA335F /* MoviesIcon@2x.png */; };
+		3B11DEB319DAE03F00CA335F /* MusicsIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE9219DAE03F00CA335F /* MusicsIcon@2x.png */; };
+		3B11DEB419DAE03F00CA335F /* NavigationBarBackBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE9319DAE03F00CA335F /* NavigationBarBackBackground@2x.png */; };
+		3B11DEB519DAE03F00CA335F /* NavigationBarLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE9419DAE03F00CA335F /* NavigationBarLogo@2x.png */; };
+		3B11DEB619DAE03F00CA335F /* NewsIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE9519DAE03F00CA335F /* NewsIcon@2x.png */; };
+		3B11DEB719DAE03F00CA335F /* PartTabBarMVIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE9619DAE03F00CA335F /* PartTabBarMVIcon@2x.png */; };
+		3B11DEB819DAE03F00CA335F /* PartTabBarVideoIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE9719DAE03F00CA335F /* PartTabBarVideoIcon@2x.png */; };
+		3B11DEB919DAE03F00CA335F /* PlayRecordsIcoGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE9819DAE03F00CA335F /* PlayRecordsIcoGray@2x.png */; };
+		3B11DEBA19DAE03F00CA335F /* RecommandationViewTitleBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE9919DAE03F00CA335F /* RecommandationViewTitleBackground@2x.png */; };
+		3B11DEBB19DAE03F00CA335F /* SegmentBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE9A19DAE03F00CA335F /* SegmentBackground@2x.png */; };
+		3B11DEBC19DAE03F00CA335F /* SegmentBackgroundSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE9B19DAE03F00CA335F /* SegmentBackgroundSelected@2x.png */; };
+		3B11DEBD19DAE03F00CA335F /* TabBarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE9C19DAE03F00CA335F /* TabBarBackground@2x.png */; };
+		3B11DEBE19DAE03F00CA335F /* TabBarHomeBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE9D19DAE03F00CA335F /* TabBarHomeBackground@2x.png */; };
+		3B11DEBF19DAE03F00CA335F /* TabBarHomeBackgroundSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE9E19DAE03F00CA335F /* TabBarHomeBackgroundSelected@2x.png */; };
+		3B11DEC019DAE03F00CA335F /* TabBarHomeChannelsIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DE9F19DAE03F00CA335F /* TabBarHomeChannelsIcon@2x.png */; };
+		3B11DEC119DAE03F00CA335F /* TabBarHomeLiveIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DEA019DAE03F00CA335F /* TabBarHomeLiveIcon@2x.png */; };
+		3B11DEC219DAE03F00CA335F /* TabBarHomeMoreIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DEA119DAE03F00CA335F /* TabBarHomeMoreIcon@2x.png */; };
+		3B11DEC319DAE03F00CA335F /* TabBarHomeSearchIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DEA219DAE03F00CA335F /* TabBarHomeSearchIcon@2x.png */; };
+		3B11DEC419DAE03F00CA335F /* TabBarHomeSpliter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DEA319DAE03F00CA335F /* TabBarHomeSpliter@2x.png */; };
+		3B11DEC519DAE03F00CA335F /* TabBarRecommendIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DEA419DAE03F00CA335F /* TabBarRecommendIcon@2x.png */; };
+		3B11DEC619DAE03F00CA335F /* TabBarRecommendSelectedIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DEA519DAE03F00CA335F /* TabBarRecommendSelectedIcon@2x.png */; };
+		3B11DEC719DAE03F00CA335F /* TravelIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DEA619DAE03F00CA335F /* TravelIcon@2x.png */; };
+		3B11DEC819DAE03F00CA335F /* TVIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DEA719DAE03F00CA335F /* TVIcon@2x.png */; };
+		3B11DEC919DAE03F00CA335F /* TVProgramIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DEA819DAE03F00CA335F /* TVProgramIcon@2x.png */; };
+		3B11DECA19DAE03F00CA335F /* VipCornerIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DEA919DAE03F00CA335F /* VipCornerIcon@2x.png */; };
+		3B11DECB19DAE03F00CA335F /* VipIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11DEAA19DAE03F00CA335F /* VipIcon@2x.png */; };
+		3B4546F219DBA93100603D53 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4546F119DBA93100603D53 /* MyScrollView.m */; };
+		3BB04E0919DD392F00BB98AF /* MyTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB04E0819DD392F00BB98AF /* MyTipsView.m */; };
+		3BB04E0C19DFA8C600BB98AF /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB04E0B19DFA8C600BB98AF /* MyTabBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B11DE7A19DADB2E00CA335F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B11DE5819DADB2E00CA335F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B11DE5F19DADB2E00CA335F;
+			remoteInfo = "芒果TV仿";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B11DE6019DADB2E00CA335F /* 芒果TV仿.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "芒果TV仿.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B11DE6419DADB2E00CA335F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B11DE6519DADB2E00CA335F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B11DE6719DADB2E00CA335F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B11DE6819DADB2E00CA335F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B11DE6A19DADB2E00CA335F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B11DE6B19DADB2E00CA335F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B11DE6E19DADB2E00CA335F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B11DE7019DADB2E00CA335F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B11DE7319DADB2E00CA335F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3B11DE7919DADB2E00CA335F /* 芒果TV仿Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "芒果TV仿Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B11DE7E19DADB2E00CA335F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B11DE7F19DADB2E00CA335F /* __TV_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __TV_Tests.m; sourceTree = "<group>"; };
+		3B11DE8A19DAE03F00CA335F /* CartoonIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CartoonIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DE8B19DAE03F00CA335F /* color-wheel-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "color-wheel-icon.jpg"; sourceTree = "<group>"; };
+		3B11DE8C19DAE03F00CA335F /* ColumnDetailIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ColumnDetailIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DE8D19DAE03F00CA335F /* HomeActivityBarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeActivityBarIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DE8E19DAE03F00CA335F /* HomeMore@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeMore@2x.png"; sourceTree = "<group>"; };
+		3B11DE8F19DAE03F00CA335F /* HuaerYuShaonianIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HuaerYuShaonianIcon.png; sourceTree = "<group>"; };
+		3B11DE9019DAE03F00CA335F /* ImgoShareIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImgoShareIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DE9119DAE03F00CA335F /* MoviesIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviesIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DE9219DAE03F00CA335F /* MusicsIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MusicsIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DE9319DAE03F00CA335F /* NavigationBarBackBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationBarBackBackground@2x.png"; sourceTree = "<group>"; };
+		3B11DE9419DAE03F00CA335F /* NavigationBarLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationBarLogo@2x.png"; sourceTree = "<group>"; };
+		3B11DE9519DAE03F00CA335F /* NewsIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NewsIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DE9619DAE03F00CA335F /* PartTabBarMVIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PartTabBarMVIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DE9719DAE03F00CA335F /* PartTabBarVideoIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PartTabBarVideoIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DE9819DAE03F00CA335F /* PlayRecordsIcoGray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayRecordsIcoGray@2x.png"; sourceTree = "<group>"; };
+		3B11DE9919DAE03F00CA335F /* RecommandationViewTitleBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecommandationViewTitleBackground@2x.png"; sourceTree = "<group>"; };
+		3B11DE9A19DAE03F00CA335F /* SegmentBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SegmentBackground@2x.png"; sourceTree = "<group>"; };
+		3B11DE9B19DAE03F00CA335F /* SegmentBackgroundSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SegmentBackgroundSelected@2x.png"; sourceTree = "<group>"; };
+		3B11DE9C19DAE03F00CA335F /* TabBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarBackground@2x.png"; sourceTree = "<group>"; };
+		3B11DE9D19DAE03F00CA335F /* TabBarHomeBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarHomeBackground@2x.png"; sourceTree = "<group>"; };
+		3B11DE9E19DAE03F00CA335F /* TabBarHomeBackgroundSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarHomeBackgroundSelected@2x.png"; sourceTree = "<group>"; };
+		3B11DE9F19DAE03F00CA335F /* TabBarHomeChannelsIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarHomeChannelsIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DEA019DAE03F00CA335F /* TabBarHomeLiveIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarHomeLiveIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DEA119DAE03F00CA335F /* TabBarHomeMoreIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarHomeMoreIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DEA219DAE03F00CA335F /* TabBarHomeSearchIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarHomeSearchIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DEA319DAE03F00CA335F /* TabBarHomeSpliter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarHomeSpliter@2x.png"; sourceTree = "<group>"; };
+		3B11DEA419DAE03F00CA335F /* TabBarRecommendIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarRecommendIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DEA519DAE03F00CA335F /* TabBarRecommendSelectedIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarRecommendSelectedIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DEA619DAE03F00CA335F /* TravelIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TravelIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DEA719DAE03F00CA335F /* TVIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TVIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DEA819DAE03F00CA335F /* TVProgramIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TVProgramIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DEA919DAE03F00CA335F /* VipCornerIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VipCornerIcon@2x.png"; sourceTree = "<group>"; };
+		3B11DEAA19DAE03F00CA335F /* VipIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VipIcon@2x.png"; sourceTree = "<group>"; };
+		3B4546F019DBA93100603D53 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		3B4546F119DBA93100603D53 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
+		3BB04E0719DD392F00BB98AF /* MyTipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTipsView.h; sourceTree = "<group>"; };
+		3BB04E0819DD392F00BB98AF /* MyTipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTipsView.m; sourceTree = "<group>"; };
+		3BB04E0A19DFA8C600BB98AF /* MyTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBar.h; sourceTree = "<group>"; };
+		3BB04E0B19DFA8C600BB98AF /* MyTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B11DE5D19DADB2E00CA335F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B11DE7619DADB2E00CA335F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B11DE5719DADB2E00CA335F = {
+			isa = PBXGroup;
+			children = (
+				3B4546EF19DBA8FE00603D53 /* view */,
+				3B11DE6219DADB2E00CA335F /* 芒果TV仿 */,
+				3B11DE8919DAE03F00CA335F /* images */,
+				3B11DE7C19DADB2E00CA335F /* 芒果TV仿Tests */,
+				3B11DE6119DADB2E00CA335F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B11DE6119DADB2E00CA335F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B11DE6019DADB2E00CA335F /* 芒果TV仿.app */,
+				3B11DE7919DADB2E00CA335F /* 芒果TV仿Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B11DE6219DADB2E00CA335F /* 芒果TV仿 */ = {
+			isa = PBXGroup;
+			children = (
+				3B11DE6719DADB2E00CA335F /* AppDelegate.h */,
+				3B11DE6819DADB2E00CA335F /* AppDelegate.m */,
+				3B11DE6A19DADB2E00CA335F /* ViewController.h */,
+				3B11DE6B19DADB2E00CA335F /* ViewController.m */,
+				3B11DE6D19DADB2E00CA335F /* Main.storyboard */,
+				3B11DE7019DADB2E00CA335F /* Images.xcassets */,
+				3B11DE7219DADB2E00CA335F /* LaunchScreen.xib */,
+				3B11DE6319DADB2E00CA335F /* Supporting Files */,
+			);
+			path = "芒果TV仿";
+			sourceTree = "<group>";
+		};
+		3B11DE6319DADB2E00CA335F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B11DE6419DADB2E00CA335F /* Info.plist */,
+				3B11DE6519DADB2E00CA335F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B11DE7C19DADB2E00CA335F /* 芒果TV仿Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3B11DE7F19DADB2E00CA335F /* __TV_Tests.m */,
+				3B11DE7D19DADB2E00CA335F /* Supporting Files */,
+			);
+			path = "芒果TV仿Tests";
+			sourceTree = "<group>";
+		};
+		3B11DE7D19DADB2E00CA335F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B11DE7E19DADB2E00CA335F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B11DE8919DAE03F00CA335F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3B11DE8A19DAE03F00CA335F /* CartoonIcon@2x.png */,
+				3B11DE8B19DAE03F00CA335F /* color-wheel-icon.jpg */,
+				3B11DE8C19DAE03F00CA335F /* ColumnDetailIcon@2x.png */,
+				3B11DE8D19DAE03F00CA335F /* HomeActivityBarIcon@2x.png */,
+				3B11DE8E19DAE03F00CA335F /* HomeMore@2x.png */,
+				3B11DE8F19DAE03F00CA335F /* HuaerYuShaonianIcon.png */,
+				3B11DE9019DAE03F00CA335F /* ImgoShareIcon@2x.png */,
+				3B11DE9119DAE03F00CA335F /* MoviesIcon@2x.png */,
+				3B11DE9219DAE03F00CA335F /* MusicsIcon@2x.png */,
+				3B11DE9319DAE03F00CA335F /* NavigationBarBackBackground@2x.png */,
+				3B11DE9419DAE03F00CA335F /* NavigationBarLogo@2x.png */,
+				3B11DE9519DAE03F00CA335F /* NewsIcon@2x.png */,
+				3B11DE9619DAE03F00CA335F /* PartTabBarMVIcon@2x.png */,
+				3B11DE9719DAE03F00CA335F /* PartTabBarVideoIcon@2x.png */,
+				3B11DE9819DAE03F00CA335F /* PlayRecordsIcoGray@2x.png */,
+				3B11DE9919DAE03F00CA335F /* RecommandationViewTitleBackground@2x.png */,
+				3B11DE9A19DAE03F00CA335F /* SegmentBackground@2x.png */,
+				3B11DE9B19DAE03F00CA335F /* SegmentBackgroundSelected@2x.png */,
+				3B11DE9C19DAE03F00CA335F /* TabBarBackground@2x.png */,
+				3B11DE9D19DAE03F00CA335F /* TabBarHomeBackground@2x.png */,
+				3B11DE9E19DAE03F00CA335F /* TabBarHomeBackgroundSelected@2x.png */,
+				3B11DE9F19DAE03F00CA335F /* TabBarHomeChannelsIcon@2x.png */,
+				3B11DEA019DAE03F00CA335F /* TabBarHomeLiveIcon@2x.png */,
+				3B11DEA119DAE03F00CA335F /* TabBarHomeMoreIcon@2x.png */,
+				3B11DEA219DAE03F00CA335F /* TabBarHomeSearchIcon@2x.png */,
+				3B11DEA319DAE03F00CA335F /* TabBarHomeSpliter@2x.png */,
+				3B11DEA419DAE03F00CA335F /* TabBarRecommendIcon@2x.png */,
+				3B11DEA519DAE03F00CA335F /* TabBarRecommendSelectedIcon@2x.png */,
+				3B11DEA619DAE03F00CA335F /* TravelIcon@2x.png */,
+				3B11DEA719DAE03F00CA335F /* TVIcon@2x.png */,
+				3B11DEA819DAE03F00CA335F /* TVProgramIcon@2x.png */,
+				3B11DEA919DAE03F00CA335F /* VipCornerIcon@2x.png */,
+				3B11DEAA19DAE03F00CA335F /* VipIcon@2x.png */,
+			);
+			name = images;
+			path = "芒果TV仿/images";
+			sourceTree = "<group>";
+		};
+		3B4546EF19DBA8FE00603D53 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3B4546F019DBA93100603D53 /* MyScrollView.h */,
+				3B4546F119DBA93100603D53 /* MyScrollView.m */,
+				3BB04E0719DD392F00BB98AF /* MyTipsView.h */,
+				3BB04E0819DD392F00BB98AF /* MyTipsView.m */,
+				3BB04E0A19DFA8C600BB98AF /* MyTabBar.h */,
+				3BB04E0B19DFA8C600BB98AF /* MyTabBar.m */,
+			);
+			name = view;
+			path = "芒果TV仿";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B11DE5F19DADB2E00CA335F /* 芒果TV仿 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B11DE8319DADB2E00CA335F /* Build configuration list for PBXNativeTarget "芒果TV仿" */;
+			buildPhases = (
+				3B11DE5C19DADB2E00CA335F /* Sources */,
+				3B11DE5D19DADB2E00CA335F /* Frameworks */,
+				3B11DE5E19DADB2E00CA335F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "芒果TV仿";
+			productName = "芒果TV仿";
+			productReference = 3B11DE6019DADB2E00CA335F /* 芒果TV仿.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B11DE7819DADB2E00CA335F /* 芒果TV仿Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B11DE8619DADB2E00CA335F /* Build configuration list for PBXNativeTarget "芒果TV仿Tests" */;
+			buildPhases = (
+				3B11DE7519DADB2E00CA335F /* Sources */,
+				3B11DE7619DADB2E00CA335F /* Frameworks */,
+				3B11DE7719DADB2E00CA335F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B11DE7B19DADB2E00CA335F /* PBXTargetDependency */,
+			);
+			name = "芒果TV仿Tests";
+			productName = "芒果TV仿Tests";
+			productReference = 3B11DE7919DADB2E00CA335F /* 芒果TV仿Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B11DE5819DADB2E00CA335F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "宇蝈蝈";
+				TargetAttributes = {
+					3B11DE5F19DADB2E00CA335F = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					3B11DE7819DADB2E00CA335F = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 3B11DE5F19DADB2E00CA335F;
+					};
+				};
+			};
+			buildConfigurationList = 3B11DE5B19DADB2E00CA335F /* Build configuration list for PBXProject "芒果TV仿" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B11DE5719DADB2E00CA335F;
+			productRefGroup = 3B11DE6119DADB2E00CA335F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B11DE5F19DADB2E00CA335F /* 芒果TV仿 */,
+				3B11DE7819DADB2E00CA335F /* 芒果TV仿Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B11DE5E19DADB2E00CA335F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B11DEC019DAE03F00CA335F /* TabBarHomeChannelsIcon@2x.png in Resources */,
+				3B11DEBB19DAE03F00CA335F /* SegmentBackground@2x.png in Resources */,
+				3B11DEB419DAE03F00CA335F /* NavigationBarBackBackground@2x.png in Resources */,
+				3B11DEC619DAE03F00CA335F /* TabBarRecommendSelectedIcon@2x.png in Resources */,
+				3B11DEB519DAE03F00CA335F /* NavigationBarLogo@2x.png in Resources */,
+				3B11DEC719DAE03F00CA335F /* TravelIcon@2x.png in Resources */,
+				3B11DEAF19DAE03F00CA335F /* HomeMore@2x.png in Resources */,
+				3B11DEBC19DAE03F00CA335F /* SegmentBackgroundSelected@2x.png in Resources */,
+				3B11DEB719DAE03F00CA335F /* PartTabBarMVIcon@2x.png in Resources */,
+				3B11DEAE19DAE03F00CA335F /* HomeActivityBarIcon@2x.png in Resources */,
+				3B11DE6F19DADB2E00CA335F /* Main.storyboard in Resources */,
+				3B11DECB19DAE03F00CA335F /* VipIcon@2x.png in Resources */,
+				3B11DEB319DAE03F00CA335F /* MusicsIcon@2x.png in Resources */,
+				3B11DEBA19DAE03F00CA335F /* RecommandationViewTitleBackground@2x.png in Resources */,
+				3B11DEC419DAE03F00CA335F /* TabBarHomeSpliter@2x.png in Resources */,
+				3B11DEBE19DAE03F00CA335F /* TabBarHomeBackground@2x.png in Resources */,
+				3B11DEB119DAE03F00CA335F /* ImgoShareIcon@2x.png in Resources */,
+				3B11DEC919DAE03F00CA335F /* TVProgramIcon@2x.png in Resources */,
+				3B11DE7419DADB2E00CA335F /* LaunchScreen.xib in Resources */,
+				3B11DEB219DAE03F00CA335F /* MoviesIcon@2x.png in Resources */,
+				3B11DEB919DAE03F00CA335F /* PlayRecordsIcoGray@2x.png in Resources */,
+				3B11DECA19DAE03F00CA335F /* VipCornerIcon@2x.png in Resources */,
+				3B11DEC119DAE03F00CA335F /* TabBarHomeLiveIcon@2x.png in Resources */,
+				3B11DEAD19DAE03F00CA335F /* ColumnDetailIcon@2x.png in Resources */,
+				3B11DEC219DAE03F00CA335F /* TabBarHomeMoreIcon@2x.png in Resources */,
+				3B11DEB819DAE03F00CA335F /* PartTabBarVideoIcon@2x.png in Resources */,
+				3B11DEC319DAE03F00CA335F /* TabBarHomeSearchIcon@2x.png in Resources */,
+				3B11DEBD19DAE03F00CA335F /* TabBarBackground@2x.png in Resources */,
+				3B11DEAB19DAE03F00CA335F /* CartoonIcon@2x.png in Resources */,
+				3B11DEC519DAE03F00CA335F /* TabBarRecommendIcon@2x.png in Resources */,
+				3B11DEAC19DAE03F00CA335F /* color-wheel-icon.jpg in Resources */,
+				3B11DE7119DADB2E00CA335F /* Images.xcassets in Resources */,
+				3B11DEC819DAE03F00CA335F /* TVIcon@2x.png in Resources */,
+				3B11DEB019DAE03F00CA335F /* HuaerYuShaonianIcon.png in Resources */,
+				3B11DEBF19DAE03F00CA335F /* TabBarHomeBackgroundSelected@2x.png in Resources */,
+				3B11DEB619DAE03F00CA335F /* NewsIcon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B11DE7719DADB2E00CA335F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B11DE5C19DADB2E00CA335F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB04E0919DD392F00BB98AF /* MyTipsView.m in Sources */,
+				3BB04E0C19DFA8C600BB98AF /* MyTabBar.m in Sources */,
+				3B11DE6C19DADB2E00CA335F /* ViewController.m in Sources */,
+				3B4546F219DBA93100603D53 /* MyScrollView.m in Sources */,
+				3B11DE6919DADB2E00CA335F /* AppDelegate.m in Sources */,
+				3B11DE6619DADB2E00CA335F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B11DE7519DADB2E00CA335F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B11DE8019DADB2E00CA335F /* __TV_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B11DE7B19DADB2E00CA335F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B11DE5F19DADB2E00CA335F /* 芒果TV仿 */;
+			targetProxy = 3B11DE7A19DADB2E00CA335F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B11DE6D19DADB2E00CA335F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B11DE6E19DADB2E00CA335F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B11DE7219DADB2E00CA335F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B11DE7319DADB2E00CA335F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B11DE8119DADB2E00CA335F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B11DE8219DADB2E00CA335F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B11DE8419DADB2E00CA335F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "芒果TV仿/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B11DE8519DADB2E00CA335F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "芒果TV仿/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B11DE8719DADB2E00CA335F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "芒果TV仿Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/芒果TV仿.app/芒果TV仿";
+			};
+			name = Debug;
+		};
+		3B11DE8819DADB2E00CA335F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "芒果TV仿Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/芒果TV仿.app/芒果TV仿";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B11DE5B19DADB2E00CA335F /* Build configuration list for PBXProject "芒果TV仿" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B11DE8119DADB2E00CA335F /* Debug */,
+				3B11DE8219DADB2E00CA335F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B11DE8319DADB2E00CA335F /* Build configuration list for PBXNativeTarget "芒果TV仿" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B11DE8419DADB2E00CA335F /* Debug */,
+				3B11DE8519DADB2E00CA335F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B11DE8619DADB2E00CA335F /* Build configuration list for PBXNativeTarget "芒果TV仿Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B11DE8719DADB2E00CA335F /* Debug */,
+				3B11DE8819DADB2E00CA335F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B11DE5819DADB2E00CA335F /* Project object */;
+}

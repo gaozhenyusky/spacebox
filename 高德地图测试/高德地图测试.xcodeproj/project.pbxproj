@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848F391F19E62FD20014FFF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F391E19E62FD20014FFF2 /* main.m */; };
+		848F392219E62FD20014FFF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F392119E62FD20014FFF2 /* AppDelegate.m */; };
+		848F392519E62FD20014FFF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F392419E62FD20014FFF2 /* ViewController.m */; };
+		848F392819E62FD20014FFF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F392619E62FD20014FFF2 /* Main.storyboard */; };
+		848F392A19E62FD20014FFF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848F392919E62FD20014FFF2 /* Images.xcassets */; };
+		848F392D19E62FD20014FFF2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F392B19E62FD20014FFF2 /* LaunchScreen.xib */; };
+		848F393919E62FD20014FFF2 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F393819E62FD20014FFF2 /* ______Tests.m */; };
+		848F394319E630810014FFF2 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848F394219E630810014FFF2 /* MAMapKit.framework */; };
+		848F394519E6308E0014FFF2 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 848F394419E6308E0014FFF2 /* AMap.bundle */; };
+		848F394719E630BB0014FFF2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848F394619E630BB0014FFF2 /* QuartzCore.framework */; };
+		848F394919E630C60014FFF2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848F394819E630C60014FFF2 /* CoreLocation.framework */; };
+		848F394B19E630D60014FFF2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848F394A19E630D60014FFF2 /* SystemConfiguration.framework */; };
+		848F394D19E630E20014FFF2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848F394C19E630E20014FFF2 /* CoreTelephony.framework */; };
+		848F394F19E630FA0014FFF2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 848F394E19E630FA0014FFF2 /* libz.dylib */; };
+		848F395119E631090014FFF2 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 848F395019E631090014FFF2 /* libstdc++.6.0.9.dylib */; };
+		848F395319E631110014FFF2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848F395219E631110014FFF2 /* Security.framework */; };
+		848F395E19E636540014FFF2 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848F395D19E636540014FFF2 /* AMapSearchKit.framework */; };
+		848F396219E63ACA0014FFF2 /* UserLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F395719E634A50014FFF2 /* UserLocationViewController.m */; };
+		848F396519E63CBE0014FFF2 /* BaseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F396419E63CBE0014FFF2 /* BaseMapViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		848F393319E62FD20014FFF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848F391119E62FD20014FFF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848F391819E62FD20014FFF2;
+			remoteInfo = "高德地图测试";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		848F391919E62FD20014FFF2 /* 高德地图测试.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "高德地图测试.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848F391D19E62FD20014FFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848F391E19E62FD20014FFF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		848F392019E62FD20014FFF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		848F392119E62FD20014FFF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		848F392319E62FD20014FFF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		848F392419E62FD20014FFF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		848F392719E62FD20014FFF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		848F392919E62FD20014FFF2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		848F392C19E62FD20014FFF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		848F393219E62FD20014FFF2 /* 高德地图测试Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "高德地图测试Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848F393719E62FD20014FFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848F393819E62FD20014FFF2 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		848F394219E630810014FFF2 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		848F394419E6308E0014FFF2 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+		848F394619E630BB0014FFF2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		848F394819E630C60014FFF2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		848F394A19E630D60014FFF2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		848F394C19E630E20014FFF2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		848F394E19E630FA0014FFF2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		848F395019E631090014FFF2 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		848F395219E631110014FFF2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		848F395419E633060014FFF2 /* APIKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIKey.h; sourceTree = "<group>"; };
+		848F395619E634A50014FFF2 /* UserLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLocationViewController.h; sourceTree = "<group>"; };
+		848F395719E634A50014FFF2 /* UserLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLocationViewController.m; sourceTree = "<group>"; };
+		848F395D19E636540014FFF2 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		848F396319E63CBE0014FFF2 /* BaseMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMapViewController.h; sourceTree = "<group>"; };
+		848F396419E63CBE0014FFF2 /* BaseMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMapViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848F391619E62FD20014FFF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848F395319E631110014FFF2 /* Security.framework in Frameworks */,
+				848F395119E631090014FFF2 /* libstdc++.6.0.9.dylib in Frameworks */,
+				848F394F19E630FA0014FFF2 /* libz.dylib in Frameworks */,
+				848F394D19E630E20014FFF2 /* CoreTelephony.framework in Frameworks */,
+				848F394B19E630D60014FFF2 /* SystemConfiguration.framework in Frameworks */,
+				848F395E19E636540014FFF2 /* AMapSearchKit.framework in Frameworks */,
+				848F394919E630C60014FFF2 /* CoreLocation.framework in Frameworks */,
+				848F394719E630BB0014FFF2 /* QuartzCore.framework in Frameworks */,
+				848F394319E630810014FFF2 /* MAMapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848F392F19E62FD20014FFF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848F391019E62FD20014FFF2 = {
+			isa = PBXGroup;
+			children = (
+				848F395219E631110014FFF2 /* Security.framework */,
+				848F395019E631090014FFF2 /* libstdc++.6.0.9.dylib */,
+				848F394E19E630FA0014FFF2 /* libz.dylib */,
+				848F394C19E630E20014FFF2 /* CoreTelephony.framework */,
+				848F394A19E630D60014FFF2 /* SystemConfiguration.framework */,
+				848F394819E630C60014FFF2 /* CoreLocation.framework */,
+				848F394619E630BB0014FFF2 /* QuartzCore.framework */,
+				848F391B19E62FD20014FFF2 /* 高德地图测试 */,
+				848F393519E62FD20014FFF2 /* 高德地图测试Tests */,
+				848F391A19E62FD20014FFF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848F391A19E62FD20014FFF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848F391919E62FD20014FFF2 /* 高德地图测试.app */,
+				848F393219E62FD20014FFF2 /* 高德地图测试Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848F391B19E62FD20014FFF2 /* 高德地图测试 */ = {
+			isa = PBXGroup;
+			children = (
+				848F395D19E636540014FFF2 /* AMapSearchKit.framework */,
+				848F394419E6308E0014FFF2 /* AMap.bundle */,
+				848F394219E630810014FFF2 /* MAMapKit.framework */,
+				848F392019E62FD20014FFF2 /* AppDelegate.h */,
+				848F392119E62FD20014FFF2 /* AppDelegate.m */,
+				848F392319E62FD20014FFF2 /* ViewController.h */,
+				848F392419E62FD20014FFF2 /* ViewController.m */,
+				848F395619E634A50014FFF2 /* UserLocationViewController.h */,
+				848F395719E634A50014FFF2 /* UserLocationViewController.m */,
+				848F396319E63CBE0014FFF2 /* BaseMapViewController.h */,
+				848F396419E63CBE0014FFF2 /* BaseMapViewController.m */,
+				848F392619E62FD20014FFF2 /* Main.storyboard */,
+				848F392919E62FD20014FFF2 /* Images.xcassets */,
+				848F392B19E62FD20014FFF2 /* LaunchScreen.xib */,
+				848F391C19E62FD20014FFF2 /* Supporting Files */,
+				848F395419E633060014FFF2 /* APIKey.h */,
+			);
+			path = "高德地图测试";
+			sourceTree = "<group>";
+		};
+		848F391C19E62FD20014FFF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				848F391D19E62FD20014FFF2 /* Info.plist */,
+				848F391E19E62FD20014FFF2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		848F393519E62FD20014FFF2 /* 高德地图测试Tests */ = {
+			isa = PBXGroup;
+			children = (
+				848F393819E62FD20014FFF2 /* ______Tests.m */,
+				848F393619E62FD20014FFF2 /* Supporting Files */,
+			);
+			path = "高德地图测试Tests";
+			sourceTree = "<group>";
+		};
+		848F393619E62FD20014FFF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				848F393719E62FD20014FFF2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848F391819E62FD20014FFF2 /* 高德地图测试 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848F393C19E62FD20014FFF2 /* Build configuration list for PBXNativeTarget "高德地图测试" */;
+			buildPhases = (
+				848F391519E62FD20014FFF2 /* Sources */,
+				848F391619E62FD20014FFF2 /* Frameworks */,
+				848F391719E62FD20014FFF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "高德地图测试";
+			productName = "高德地图测试";
+			productReference = 848F391919E62FD20014FFF2 /* 高德地图测试.app */;
+			productType = "com.apple.product-type.application";
+		};
+		848F393119E62FD20014FFF2 /* 高德地图测试Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848F393F19E62FD20014FFF2 /* Build configuration list for PBXNativeTarget "高德地图测试Tests" */;
+			buildPhases = (
+				848F392E19E62FD20014FFF2 /* Sources */,
+				848F392F19E62FD20014FFF2 /* Frameworks */,
+				848F393019E62FD20014FFF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848F393419E62FD20014FFF2 /* PBXTargetDependency */,
+			);
+			name = "高德地图测试Tests";
+			productName = "高德地图测试Tests";
+			productReference = 848F393219E62FD20014FFF2 /* 高德地图测试Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848F391119E62FD20014FFF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					848F391819E62FD20014FFF2 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					848F393119E62FD20014FFF2 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 848F391819E62FD20014FFF2;
+					};
+				};
+			};
+			buildConfigurationList = 848F391419E62FD20014FFF2 /* Build configuration list for PBXProject "高德地图测试" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848F391019E62FD20014FFF2;
+			productRefGroup = 848F391A19E62FD20014FFF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848F391819E62FD20014FFF2 /* 高德地图测试 */,
+				848F393119E62FD20014FFF2 /* 高德地图测试Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848F391719E62FD20014FFF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848F392819E62FD20014FFF2 /* Main.storyboard in Resources */,
+				848F392D19E62FD20014FFF2 /* LaunchScreen.xib in Resources */,
+				848F394519E6308E0014FFF2 /* AMap.bundle in Resources */,
+				848F392A19E62FD20014FFF2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848F393019E62FD20014FFF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848F391519E62FD20014FFF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848F396219E63ACA0014FFF2 /* UserLocationViewController.m in Sources */,
+				848F396519E63CBE0014FFF2 /* BaseMapViewController.m in Sources */,
+				848F392519E62FD20014FFF2 /* ViewController.m in Sources */,
+				848F392219E62FD20014FFF2 /* AppDelegate.m in Sources */,
+				848F391F19E62FD20014FFF2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848F392E19E62FD20014FFF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848F393919E62FD20014FFF2 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		848F393419E62FD20014FFF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848F391819E62FD20014FFF2 /* 高德地图测试 */;
+			targetProxy = 848F393319E62FD20014FFF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		848F392619E62FD20014FFF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848F392719E62FD20014FFF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		848F392B19E62FD20014FFF2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848F392C19E62FD20014FFF2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848F393A19E62FD20014FFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		848F393B19E62FD20014FFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848F393D19E62FD20014FFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/高德地图测试",
+				);
+				INFOPLIST_FILE = "高德地图测试/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		848F393E19E62FD20014FFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/高德地图测试",
+				);
+				INFOPLIST_FILE = "高德地图测试/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		848F394019E62FD20014FFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "高德地图测试Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/高德地图测试.app/高德地图测试";
+			};
+			name = Debug;
+		};
+		848F394119E62FD20014FFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "高德地图测试Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/高德地图测试.app/高德地图测试";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848F391419E62FD20014FFF2 /* Build configuration list for PBXProject "高德地图测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848F393A19E62FD20014FFF2 /* Debug */,
+				848F393B19E62FD20014FFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848F393C19E62FD20014FFF2 /* Build configuration list for PBXNativeTarget "高德地图测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848F393D19E62FD20014FFF2 /* Debug */,
+				848F393E19E62FD20014FFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848F393F19E62FD20014FFF2 /* Build configuration list for PBXNativeTarget "高德地图测试Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848F394019E62FD20014FFF2 /* Debug */,
+				848F394119E62FD20014FFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848F391119E62FD20014FFF2 /* Project object */;
+}
